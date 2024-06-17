@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'clase-02-angular';
+
+  contador = 0;
+
+  sumar(){
+    this.contador++;
+    alert(this.contador);
+  }
+
+  saludar(){
+    alert("Hola!!!");
+  }
 }
